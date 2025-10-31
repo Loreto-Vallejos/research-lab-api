@@ -149,36 +149,6 @@ Los **métodos HTTP** definen qué tipo de acción se quiere realizar sobre un r
 
 ---
 
-## 📨 **5. Cabeceras (Headers)**
-
-Las **cabeceras HTTP** son pares de clave–valor que viajan junto a una solicitud o respuesta.  
-Sirven para enviar **información adicional** sobre la comunicación, como tipo de contenido, autenticación o detalles del cliente.
-
----
-
-### 🔸 **Tipos de información en los headers**
-
-| Cabecera          | Función                                                         |
-|-------------------|-----------------------------------------------------------------|
-| **Content-Type**  | Indica el formato del cuerpo (por ejemplo, `application/json`). |
-| **Authorization** | Envía tokens o credenciales de acceso.                          |
-| **User-Agent**    | Describe el navegador o cliente que hace la solicitud.          |
-| **Accept**        | Define qué tipos de respuesta acepta el cliente.                |
-
----
-
-### 🔸 **Ejemplo de solicitud HTTP con cabeceras**
-
-```http
-GET /api/usuarios HTTP/1.1
-Host: ejemplo.com
-Content-Type: application/json
-Authorization: Bearer 12345tokenabc
-User-Agent: Mozilla/5.0
-Accept: application/json
-
-##Permite que el servidor entienda cómo procesar la solicitud y qué tipo de respuesta enviar.
-Incluye método, URL, cabeceras y, en otros casos, el cuerpo de la solicitud.
 
 
 ## Fuentes consultadas
