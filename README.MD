@@ -177,11 +177,11 @@ Authorization: Bearer 12345tokenabc
 User-Agent: Mozilla/5.0
 Accept: application/json
 
-Permite que el servidor entienda cómo procesar la solicitud y qué tipo de respuesta enviar.
+##Permite que el servidor entienda cómo procesar la solicitud y qué tipo de respuesta enviar.
 Incluye método, URL, cabeceras y, en otros casos, el cuerpo de la solicitud.
 
 
-📚 Fuentes consultadas
+## Fuentes consultadas
 
 Mozilla Developer Network. (s.f.). HTTP Overview. MDN Web Docs. Recuperado el 30 de octubre de 2025, de https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
 
